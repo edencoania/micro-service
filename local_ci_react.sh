@@ -12,3 +12,6 @@ docker image rm edencoania/release:my-react-appp
 kubectl apply -f reactJS/deployment.yaml
 kubectl apply -f reactJS/service.yaml
 
+kubectl apply -f nodejs/deployment.yaml
+kubectl apply -f nodejs/service.yaml
+

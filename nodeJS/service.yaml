@@ -9,5 +9,4 @@ spec:
   - protocol: TCP
     port: 8000 # Port exposed by the service
     targetPort: 8000 # Port your Node.js app listens on inside the container
-    nodePort: 31000
   type: ClusterIP # Change to NodePort or LoadBalancer if needed
