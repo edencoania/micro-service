@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: edencoania/release:my-react-apaa # Replace with your Docker image name and tag
+        image: edencoania/release:bob # Replace with your Docker image name and tag
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000 # Port your React app listens on
         env:

@@ -15,8 +15,9 @@ spec:
       containers:
       - name: nodejs-container
         image: edencoania/release:nodejs
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         env:
-        - name: BASE_URL
+        - name: REACT_APP_BASE_URL
           value: "http://nodejs-service"
